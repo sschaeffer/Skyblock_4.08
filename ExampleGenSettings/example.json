@@ -1,0 +1,230 @@
+{
+  "bonus_chest": false,
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": {
+        "has_raids": true,
+        "logical_height": 256,
+        "infiniburn": "minecraft:infiniburn_overworld",
+        "ambient_light": 0.0,
+        "piglin_safe": false,
+        "bed_works": true,
+        "respawn_anchor_works": false,
+        "ultrawarm": false,
+        "natural": true,
+        "shrunk": false,
+        "has_skylight": true,
+        "has_ceiling": false,
+        "name": "minecraft:test"
+      },
+      "generator": {
+        "biome_source": {
+          "seed": 455134312899867902,
+          "biomes": [
+            {
+              "parameters": {
+                "altitude": 0.0,
+                "weirdness": 0.0,
+                "offset": 0.0,
+                "temperature": 0.0,
+                "humidity": 0.0
+              },
+              "biome": "minecraft:plains"
+            },
+            {
+              "parameters": {
+                "altitude": 0.0,
+                "weirdness": 0.0,
+                "offset": 0.0,
+                "temperature": 0.0,
+                "humidity": -0.5
+              },
+              "biome": "minecraft:flower_forest"
+            },
+            {
+              "parameters": {
+                "altitude": 0.0,
+                "weirdness": 0.0,
+                "offset": 0.0,
+                "temperature": 0.5,
+                "humidity": 0.0
+              },
+              "biome": "minecraft:mushroom_fields"
+            },
+            {
+              "parameters": {
+                "altitude": 0.0,
+                "weirdness": 0.0,
+                "offset": 0.0,
+                "temperature": 0.0,
+                "humidity": 0.5
+              },
+              "biome": "minecraft:swamp"
+            },
+            {
+              "parameters": {
+                "altitude": 0.0,
+                "weirdness": 0.0,
+                "offset": 0.0,
+                "temperature": -0.5,
+                "humidity": 0.0
+              },
+              "biome": "minecraft:shattered_savanna"
+            }
+          ],
+          "type": "minecraft:multi_noise"
+        },
+        "seed": 455134312899867902,
+        "settings": {
+          "bedrock_roof_position": -10,
+          "bedrock_floor_position": -10,
+          "sea_level": 62,
+          "disable_mob_generation": false,
+          "structures": {
+            "structures": {
+              "minecraft:swamp_hut": {
+                "spacing": 32,
+                "separation": 8,
+                "salt": 14357620
+              },
+              "minecraft:fortress": {
+                "spacing": 30,
+                "separation": 4,
+                "salt": 30084232
+              },
+              "minecraft:village": {
+                "spacing": 32,
+                "separation": 8,
+                "salt": 10387312
+              },
+              "minecraft:desert_pyramid": {
+                "spacing": 32,
+                "separation": 8,
+                "salt": 14357617
+              },
+              "minecraft:ocean_ruin": {
+                "spacing": 20,
+                "separation": 8,
+                "salt": 14357621
+              },
+              "minecraft:bastion_remnant": {
+                "spacing": 30,
+                "separation": 4,
+                "salt": 30084232
+              },
+              "minecraft:shipwreck": {
+                "spacing": 24,
+                "separation": 4,
+                "salt": 165745295
+              },
+              "minecraft:pillager_outpost": {
+                "spacing": 32,
+                "separation": 8,
+                "salt": 165745296
+              },
+              "minecraft:ruined_portal": {
+                "spacing": 40,
+                "separation": 15,
+                "salt": 34222645
+              },
+              "minecraft:jungle_pyramid": {
+                "spacing": 32,
+                "separation": 8,
+                "salt": 14357619
+              },
+              "minecraft:igloo": {
+                "spacing": 32,
+                "separation": 8,
+                "salt": 14357618
+              },
+              "minecraft:stronghold": {
+                "spacing": 1,
+                "separation": 0,
+                "salt": 0
+              },
+              "minecraft:nether_fossil": {
+                "spacing": 2,
+                "separation": 1,
+                "salt": 14357921
+              },
+              "minecraft:endcity": {
+                "spacing": 20,
+                "separation": 11,
+                "salt": 10387313
+              },
+              "minecraft:mansion": {
+                "spacing": 80,
+                "separation": 20,
+                "salt": 10387319
+              },
+              "minecraft:monument": {
+                "spacing": 32,
+                "separation": 5,
+                "salt": 10387313
+              }
+            }
+          },
+          "noise": {
+            "island_noise_override": true,
+            "density_factor": 0.0,
+            "density_offset": 0.0,
+            "simplex_surface_noise": true,
+            "bottom_slide": {
+              "target": -30,
+              "size": 7,
+              "offset": 1
+            },
+            "size_horizontal": 2,
+            "size_vertical": 1,
+            "height": 128,
+            "sampling": {
+              "xz_scale": 2.0,
+              "y_scale": 1.0,
+              "xz_factor": 80.0,
+              "y_factor": 160.0
+            },
+            "top_slide": {
+              "target": -3000,
+              "size": 64,
+              "offset": -46
+            }
+          },
+          "default_block": {
+            "Name": "minecraft:stone"
+          },
+          "default_fluid": {
+            "Name": "minecraft:air"
+          }
+        },
+        "type": "minecraft:noise"
+      }
+    },
+    "minecraft:the_nether": {
+      "type": "minecraft:the_nether",
+      "generator": {
+        "biome_source": {
+          "seed": 455134312899867902,
+          "preset": "minecraft:nether",
+          "type": "minecraft:multi_noise"
+        },
+        "seed": 455134312899867902,
+        "settings": "minecraft:nether",
+        "type": "minecraft:noise"
+      }
+    },
+    "minecraft:the_end": {
+      "type": "minecraft:the_end",
+      "generator": {
+        "biome_source": {
+          "seed": 455134312899867902,
+          "type": "minecraft:the_end"
+        },
+        "seed": 455134312899867902,
+        "settings": "minecraft:end",
+        "type": "minecraft:noise"
+      }
+    }
+  },
+  "seed": 455134312899867902,
+  "generate_features": true
+}
